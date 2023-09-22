@@ -1,0 +1,50 @@
+.pagina-sobreNos {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column;
+
+  section {
+    display: flex;
+    padding: 70px;
+    gap: 30px;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+
+      h4{
+        font-size: 18px;
+      }
+    }
+
+    .oferecer-sobreNos{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h5{
+        font-weight: bold;
+        font-size: 15px;
+        color:#0083ca;
+      }
+    }
+
+
+    .sobreNos-principal {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      hr {
+        background-color: #0083ca;
+        height: 6px;
+        width: 158px;
+        border: none;
+        border-radius: 25px;
+        margin: 0px;
+
+      }
+    }
+  }
+}

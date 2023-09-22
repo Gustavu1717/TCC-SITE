@@ -1,0 +1,44 @@
+.pagina-politicaPrivacidade {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+
+    section {
+        display: flex;
+        padding: 70px;
+        gap: 30px;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        
+      
+            h4{
+              font-size: 18px;
+            }
+
+            span{
+                color: #0083ca;
+                font-weight: 900;
+            }
+          }
+
+        .principal-politica {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+
+            hr {
+                background-color: #0083ca;
+                height: 6px;
+                width: 300px;
+                border: none;
+                border-radius: 25px;
+                margin: 0px;
+            }
+
+        }
+    }
+}

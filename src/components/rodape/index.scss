@@ -1,0 +1,48 @@
+.pagina-rodape{
+    display: flex;
+    flex-direction: column;
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+
+        .rodape-um{
+            display: flex;
+            justify-content: space-between;
+            color: #fff;
+            flex-direction: row;
+            padding: 40px 90px;
+
+            .rodape-images{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+
+            p{
+                font-size: 14px;
+            }
+            
+        }
+
+        hr{
+            width: 1150px;
+            align-self: center;
+        }
+    }
+
+    .rodape-dois{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+
+        p{
+            font-size: 10px;
+        }
+    }
+}
