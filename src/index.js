@@ -8,6 +8,7 @@ import LoginAdm from './pages/adm/loginAdm';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPageADM from './pages/adm/landingPage';
 import Cadastro from './pages/client/cadastro';
+import ListaCliente from './pages/adm/listaCliente';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path='/loginAdm' element={<LoginAdm />} />
         <Route path='/inicialAdm' element={<LandingPageADM />} />
         <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/listaCliente' element={<ListaCliente />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -24,9 +24,9 @@ export default function Cabecalho() {
 
                 <section className='cabecalho-dois'>
                     <Link>Home</Link>
-                    <Link>Produto</Link>
-                    <Link>Clientes</Link>
-                    <Link>Listas de Pedidos</Link>
+                    <Link>Smartphones</Link>
+                    <Link>Acessórios</Link>
+                    <Link>Fale conosco</Link>
                 </section>
             </header>
         </main>
