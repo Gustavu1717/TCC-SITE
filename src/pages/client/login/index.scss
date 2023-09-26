@@ -93,9 +93,14 @@
                 gap: 10px;
                 margin: 20px;
 
-                button {
+                #botao-confirmar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
                     cursor: pointer;
                     border-radius: 50px;
+                    text-decoration: none;
                     border: none;
                     background: #0083CA;
                     width: 180px;
@@ -105,6 +110,11 @@
                     letter-spacing: 2px;
                     font-size: 14px;
                     font-family: 'Inter', sans-serif;
+                }
+
+                a{
+                    text-decoration: underline;
+                    color: #000;
                 }
 
                 p {

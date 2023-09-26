@@ -1,5 +1,6 @@
 import Cabecalho from '../../../components/cabecalho';
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
@@ -26,12 +27,12 @@ export default function Login() {
 
                 <div className='login-confirmar'>
                     <div>
-                        <button >CONTINUAR</button>
-                        <p>Não tem uma conta? Cadastre-se agora</p>
+                        <Link id='botao-confirmar' to ={'/sobreNos'}>CONTINUAR</Link>
+                        <Link to={'/cadastro'}>Não tem uma conta? Cadastre-se agora</Link>
                     </div>
 
                     <div id='login-botao-google'>
-                        <button><img src='./assets/images/google.png' alt='google'/> Continuar com Google</button>
+                        <button>  <img src='./assets/images/google.png' alt='google'/> Continuar com Google</button>
                     </div>
                 </div>
             </section>
